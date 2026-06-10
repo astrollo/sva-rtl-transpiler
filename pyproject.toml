@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sva-transpiler"
+version = "0.1.0"
+description = "A restricted SystemVerilog Assertions transpiler for Yosys/SBY-friendly checker generation"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+sva_transpiler = "sva_transpiler.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["sva_transpiler*"]
