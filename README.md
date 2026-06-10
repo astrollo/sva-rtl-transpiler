@@ -47,6 +47,7 @@ It is recommended to update pip, setuptools, and wheel before installing the pac
 Clone the repository:
 
 `git clone https://github.com/<user>/sva-transpiler.git`
+
 `cd sva-transpiler`
 
 Install the transpiler:
