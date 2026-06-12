@@ -1,0 +1,2155 @@
+{
+  "design": {
+    "name": "$root",
+    "kind": "Root",
+    "addr": 136334075107072,
+    "members": [
+      {
+        "name": "",
+        "kind": "CompilationUnit",
+        "addr": 6338665607632
+      },
+      {
+        "name": "fifo_assertions",
+        "kind": "Instance",
+        "source_file": "fifo_assertions.sv",
+        "source_line": 2,
+        "source_column": 8,
+        "addr": 6338665610680,
+        "body": {
+          "name": "fifo_assertions",
+          "kind": "InstanceBody",
+          "source_file": "fifo_assertions.sv",
+          "source_line": 2,
+          "source_column": 8,
+          "addr": 6338665607912,
+          "members": [
+            {
+              "name": "clk",
+              "kind": "Port",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 2,
+              "source_column": 38,
+              "addr": 6338665610816,
+              "type": "logic",
+              "direction": "In",
+              "internalSymbol": "6338665610936 clk"
+            },
+            {
+              "name": "clk",
+              "kind": "Variable",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 2,
+              "source_column": 38,
+              "addr": 6338665610936,
+              "type": "logic",
+              "lifetime": "Static"
+            },
+            {
+              "name": "rst",
+              "kind": "Port",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 2,
+              "source_column": 43,
+              "addr": 6338665611072,
+              "type": "logic",
+              "direction": "In",
+              "internalSymbol": "6338665611280 rst"
+            },
+            {
+              "name": "rst",
+              "kind": "Variable",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 2,
+              "source_column": 43,
+              "addr": 6338665611280,
+              "type": "logic",
+              "lifetime": "Static"
+            },
+            {
+              "name": "wr_en",
+              "kind": "Port",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 2,
+              "source_column": 48,
+              "addr": 6338665611416,
+              "type": "logic",
+              "direction": "In",
+              "internalSymbol": "6338665611536 wr_en"
+            },
+            {
+              "name": "wr_en",
+              "kind": "Variable",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 2,
+              "source_column": 48,
+              "addr": 6338665611536,
+              "type": "logic",
+              "lifetime": "Static"
+            },
+            {
+              "name": "rd_en",
+              "kind": "Port",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 2,
+              "source_column": 55,
+              "addr": 6338665611672,
+              "type": "logic",
+              "direction": "In",
+              "internalSymbol": "6338665611792 rd_en"
+            },
+            {
+              "name": "rd_en",
+              "kind": "Variable",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 2,
+              "source_column": 55,
+              "addr": 6338665611792,
+              "type": "logic",
+              "lifetime": "Static"
+            },
+            {
+              "name": "wr_data",
+              "kind": "Port",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 3,
+              "source_column": 33,
+              "addr": 6338665611928,
+              "type": "logic[15:0]",
+              "direction": "In",
+              "internalSymbol": "6338665612048 wr_data"
+            },
+            {
+              "name": "wr_data",
+              "kind": "Variable",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 3,
+              "source_column": 33,
+              "addr": 6338665612048,
+              "type": "logic[15:0]",
+              "lifetime": "Static"
+            },
+            {
+              "name": "full",
+              "kind": "Port",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 4,
+              "source_column": 15,
+              "addr": 6338665612184,
+              "type": "logic",
+              "direction": "In",
+              "internalSymbol": "6338665612304 full"
+            },
+            {
+              "name": "full",
+              "kind": "Variable",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 4,
+              "source_column": 15,
+              "addr": 6338665612304,
+              "type": "logic",
+              "lifetime": "Static"
+            },
+            {
+              "name": "empty",
+              "kind": "Port",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 4,
+              "source_column": 21,
+              "addr": 6338665612440,
+              "type": "logic",
+              "direction": "In",
+              "internalSymbol": "6338665612560 empty"
+            },
+            {
+              "name": "empty",
+              "kind": "Variable",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 4,
+              "source_column": 21,
+              "addr": 6338665612560,
+              "type": "logic",
+              "lifetime": "Static"
+            },
+            {
+              "name": "rd_data",
+              "kind": "Port",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 5,
+              "source_column": 32,
+              "addr": 6338665612696,
+              "type": "logic[15:0]",
+              "direction": "In",
+              "internalSymbol": "6338665612816 rd_data"
+            },
+            {
+              "name": "rd_data",
+              "kind": "Variable",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 5,
+              "source_column": 32,
+              "addr": 6338665612816,
+              "type": "logic[15:0]",
+              "lifetime": "Static"
+            },
+            {
+              "name": "wr_ptr",
+              "kind": "Port",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 6,
+              "source_column": 45,
+              "addr": 6338665612952,
+              "type": "logic[2:0]",
+              "direction": "In",
+              "internalSymbol": "6338665613072 wr_ptr"
+            },
+            {
+              "name": "wr_ptr",
+              "kind": "Variable",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 6,
+              "source_column": 45,
+              "addr": 6338665613072,
+              "type": "logic[2:0]",
+              "lifetime": "Static"
+            },
+            {
+              "name": "rd_ptr",
+              "kind": "Port",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 6,
+              "source_column": 53,
+              "addr": 6338665613208,
+              "type": "logic[2:0]",
+              "direction": "In",
+              "internalSymbol": "6338665613328 rd_ptr"
+            },
+            {
+              "name": "rd_ptr",
+              "kind": "Variable",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 6,
+              "source_column": 53,
+              "addr": 6338665613328,
+              "type": "logic[2:0]",
+              "lifetime": "Static"
+            },
+            {
+              "name": "PTR_WIDTH",
+              "kind": "Parameter",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 9,
+              "source_column": 16,
+              "addr": 6338665608152,
+              "type": "int",
+              "initializer": {
+                "source_file_start": "fifo_assertions.sv",
+                "source_file_end": "fifo_assertions.sv",
+                "source_line_start": 9,
+                "source_line_end": 9,
+                "source_column_start": 28,
+                "source_column_end": 51,
+                "kind": "Conversion",
+                "type": "int",
+                "operand": {
+                  "source_file_start": "fifo_assertions.sv",
+                  "source_file_end": "fifo_assertions.sv",
+                  "source_line_start": 9,
+                  "source_line_end": 9,
+                  "source_column_start": 28,
+                  "source_column_end": 51,
+                  "kind": "Call",
+                  "type": "integer",
+                  "subroutine": "$clog2",
+                  "arguments": [
+                    {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 9,
+                      "source_line_end": 9,
+                      "source_column_start": 35,
+                      "source_column_end": 35,
+                      "kind": "IntegerLiteral",
+                      "type": "int",
+                      "value": "8",
+                      "constant": "8"
+                    }
+                  ],
+                  "constant": "3"
+                },
+                "constant": "3"
+              },
+              "value": "3",
+              "isLocal": true,
+              "isPort": false,
+              "isBody": true
+            },
+            {
+              "name": "PTR_ONE",
+              "kind": "Parameter",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 10,
+              "source_column": 34,
+              "addr": 6338665608320,
+              "type": "logic[2:0]",
+              "initializer": {
+                "source_file_start": "fifo_assertions.sv",
+                "source_file_end": "fifo_assertions.sv",
+                "source_line_start": 10,
+                "source_line_end": 10,
+                "source_column_start": 44,
+                "source_column_end": 73,
+                "kind": "Conversion",
+                "type": "logic[2:0]",
+                "operand": {
+                  "source_file_start": "fifo_assertions.sv",
+                  "source_file_end": "fifo_assertions.sv",
+                  "source_line_start": 10,
+                  "source_line_end": 10,
+                  "source_column_start": 44,
+                  "source_column_end": 73,
+                  "kind": "Concatenation",
+                  "type": "bit[2:0]",
+                  "operands": [
+                    {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 10,
+                      "source_line_end": 10,
+                      "source_column_start": 45,
+                      "source_column_end": 66,
+                      "kind": "Replication",
+                      "type": "bit[1:0]",
+                      "count": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 10,
+                        "source_line_end": 10,
+                        "source_column_start": 47,
+                        "source_column_end": 58,
+                        "kind": "BinaryOp",
+                        "type": "int",
+                        "op": "Subtract",
+                        "left": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 10,
+                          "source_line_end": 10,
+                          "source_column_start": 47,
+                          "source_column_end": 56,
+                          "kind": "NamedValue",
+                          "type": "int",
+                          "symbol": "6338665608152 PTR_WIDTH",
+                          "constant": "3"
+                        },
+                        "right": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 10,
+                          "source_line_end": 10,
+                          "source_column_start": 57,
+                          "source_column_end": 58,
+                          "kind": "IntegerLiteral",
+                          "type": "int",
+                          "value": "1",
+                          "constant": "1"
+                        },
+                        "constant": "2"
+                      },
+                      "concat": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 10,
+                        "source_line_end": 10,
+                        "source_column_start": 59,
+                        "source_column_end": 65,
+                        "kind": "Concatenation",
+                        "type": "bit[0:0]",
+                        "operands": [
+                          {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 10,
+                            "source_line_end": 10,
+                            "source_column_start": 60,
+                            "source_column_end": 64,
+                            "kind": "IntegerLiteral",
+                            "type": "bit[0:0]",
+                            "value": "1'b0",
+                            "constant": "1'b0"
+                          }
+                        ],
+                        "constant": "1'b0"
+                      },
+                      "constant": "2'b0"
+                    },
+                    {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 10,
+                      "source_line_end": 10,
+                      "source_column_start": 68,
+                      "source_column_end": 72,
+                      "kind": "IntegerLiteral",
+                      "type": "bit[0:0]",
+                      "value": "1'b1",
+                      "constant": "1'b1"
+                    }
+                  ],
+                  "constant": "3'b1"
+                },
+                "constant": "3'b1"
+              },
+              "value": "3'b1",
+              "isLocal": true,
+              "isPort": false,
+              "isBody": true
+            },
+            {
+              "name": "",
+              "kind": "ClockingBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 15,
+              "source_column": 18,
+              "addr": 6338665613544,
+              "event": {
+                "source_file_start": "fifo_assertions.sv",
+                "source_file_end": "fifo_assertions.sv",
+                "source_line_start": 15,
+                "source_line_end": 15,
+                "source_column_start": 20,
+                "source_column_end": 31,
+                "kind": "SignalEvent",
+                "expr": {
+                  "source_file_start": "fifo_assertions.sv",
+                  "source_file_end": "fifo_assertions.sv",
+                  "source_line_start": 15,
+                  "source_line_end": 15,
+                  "source_column_start": 28,
+                  "source_column_end": 31,
+                  "kind": "NamedValue",
+                  "type": "logic",
+                  "symbol": "6338665610936 clk"
+                },
+                "edge": "PosEdge"
+              },
+              "isDefault": true
+            },
+            {
+              "name": "a1",
+              "kind": "StatementBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 18,
+              "source_column": 1,
+              "addr": 6338665608720
+            },
+            {
+              "name": "",
+              "kind": "ProceduralBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 18,
+              "source_column": 1,
+              "addr": 6338665608616,
+              "procedureKind": "Always",
+              "body": {
+                "source_file_start": "fifo_assertions.sv",
+                "source_file_end": "fifo_assertions.sv",
+                "source_line_start": 18,
+                "source_line_end": 18,
+                "source_column_start": 1,
+                "source_column_end": 70,
+                "kind": "Block",
+                "blockKind": "Sequential",
+                "block": "6338665608720 a1",
+                "body": {
+                  "source_file_start": "fifo_assertions.sv",
+                  "source_file_end": "fifo_assertions.sv",
+                  "source_line_start": 18,
+                  "source_line_end": 18,
+                  "source_column_start": 1,
+                  "source_column_end": 70,
+                  "kind": "ConcurrentAssertion",
+                  "propertySpec": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 18,
+                    "source_line_end": 18,
+                    "source_column_start": 22,
+                    "source_column_end": 68,
+                    "kind": "Binary",
+                    "op": "NonOverlappedImplication",
+                    "left": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 18,
+                      "source_line_end": 18,
+                      "source_column_start": 22,
+                      "source_column_end": 22,
+                      "kind": "Simple",
+                      "expr": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 18,
+                        "source_line_end": 18,
+                        "source_column_start": 22,
+                        "source_column_end": 22,
+                        "kind": "BinaryOp",
+                        "type": "logic",
+                        "op": "LogicalAnd",
+                        "left": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 18,
+                          "source_line_end": 18,
+                          "source_column_start": 22,
+                          "source_column_end": 22,
+                          "kind": "NamedValue",
+                          "type": "logic",
+                          "symbol": "6338665611536 wr_en"
+                        },
+                        "right": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 18,
+                          "source_line_end": 18,
+                          "source_column_start": 22,
+                          "source_column_end": 22,
+                          "kind": "UnaryOp",
+                          "type": "logic",
+                          "op": "LogicalNot",
+                          "operand": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 18,
+                            "source_line_end": 18,
+                            "source_column_start": 22,
+                            "source_column_end": 22,
+                            "kind": "NamedValue",
+                            "type": "logic",
+                            "symbol": "6338665612304 full"
+                          }
+                        }
+                      }
+                    },
+                    "right": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 18,
+                      "source_line_end": 18,
+                      "source_column_start": 35,
+                      "source_column_end": 68,
+                      "kind": "Simple",
+                      "expr": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 18,
+                        "source_line_end": 18,
+                        "source_column_start": 35,
+                        "source_column_end": 68,
+                        "kind": "BinaryOp",
+                        "type": "logic",
+                        "op": "Equality",
+                        "left": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 18,
+                          "source_line_end": 18,
+                          "source_column_start": 35,
+                          "source_column_end": 41,
+                          "kind": "NamedValue",
+                          "type": "logic[2:0]",
+                          "symbol": "6338665613072 wr_ptr"
+                        },
+                        "right": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 18,
+                          "source_line_end": 18,
+                          "source_column_start": 45,
+                          "source_column_end": 68,
+                          "kind": "BinaryOp",
+                          "type": "logic[2:0]",
+                          "op": "Add",
+                          "left": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 18,
+                            "source_line_end": 18,
+                            "source_column_start": 45,
+                            "source_column_end": 58,
+                            "kind": "Call",
+                            "type": "logic[2:0]",
+                            "subroutine": "$past",
+                            "arguments": [
+                              {
+                                "source_file_start": "fifo_assertions.sv",
+                                "source_file_end": "fifo_assertions.sv",
+                                "source_line_start": 18,
+                                "source_line_end": 18,
+                                "source_column_start": 51,
+                                "source_column_end": 57,
+                                "kind": "NamedValue",
+                                "type": "logic[2:0]",
+                                "symbol": "6338665613072 wr_ptr"
+                              }
+                            ]
+                          },
+                          "right": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 18,
+                            "source_line_end": 18,
+                            "source_column_start": 61,
+                            "source_column_end": 68,
+                            "kind": "NamedValue",
+                            "type": "logic[2:0]",
+                            "symbol": "6338665608320 PTR_ONE"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "ifTrue": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 18,
+                    "source_line_end": 18,
+                    "source_column_start": 69,
+                    "source_column_end": 70,
+                    "kind": "Empty"
+                  },
+                  "assertionKind": "Assert"
+                }
+              }
+            },
+            {
+              "name": "a2",
+              "kind": "StatementBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 19,
+              "source_column": 1,
+              "addr": 6338665608976
+            },
+            {
+              "name": "",
+              "kind": "ProceduralBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 19,
+              "source_column": 1,
+              "addr": 6338665608872,
+              "procedureKind": "Always",
+              "body": {
+                "source_file_start": "fifo_assertions.sv",
+                "source_file_end": "fifo_assertions.sv",
+                "source_line_start": 19,
+                "source_line_end": 19,
+                "source_column_start": 1,
+                "source_column_end": 53,
+                "kind": "Block",
+                "blockKind": "Sequential",
+                "block": "6338665608976 a2",
+                "body": {
+                  "source_file_start": "fifo_assertions.sv",
+                  "source_file_end": "fifo_assertions.sv",
+                  "source_line_start": 19,
+                  "source_line_end": 19,
+                  "source_column_start": 1,
+                  "source_column_end": 53,
+                  "kind": "ConcurrentAssertion",
+                  "propertySpec": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 19,
+                    "source_line_end": 19,
+                    "source_column_start": 22,
+                    "source_column_end": 51,
+                    "kind": "Binary",
+                    "op": "NonOverlappedImplication",
+                    "left": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 19,
+                      "source_line_end": 19,
+                      "source_column_start": 22,
+                      "source_column_end": 23,
+                      "kind": "Simple",
+                      "expr": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 19,
+                        "source_line_end": 19,
+                        "source_column_start": 22,
+                        "source_column_end": 23,
+                        "kind": "UnaryOp",
+                        "type": "logic",
+                        "op": "LogicalNot",
+                        "operand": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 19,
+                          "source_line_end": 19,
+                          "source_column_start": 23,
+                          "source_column_end": 23,
+                          "kind": "BinaryOp",
+                          "type": "logic",
+                          "op": "LogicalAnd",
+                          "left": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 19,
+                            "source_line_end": 19,
+                            "source_column_start": 23,
+                            "source_column_end": 23,
+                            "kind": "NamedValue",
+                            "type": "logic",
+                            "symbol": "6338665611536 wr_en"
+                          },
+                          "right": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 19,
+                            "source_line_end": 19,
+                            "source_column_start": 23,
+                            "source_column_end": 23,
+                            "kind": "UnaryOp",
+                            "type": "logic",
+                            "op": "LogicalNot",
+                            "operand": {
+                              "source_file_start": "fifo_assertions.sv",
+                              "source_file_end": "fifo_assertions.sv",
+                              "source_line_start": 19,
+                              "source_line_end": 19,
+                              "source_column_start": 23,
+                              "source_column_end": 23,
+                              "kind": "NamedValue",
+                              "type": "logic",
+                              "symbol": "6338665612304 full"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "right": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 19,
+                      "source_line_end": 19,
+                      "source_column_start": 36,
+                      "source_column_end": 51,
+                      "kind": "Simple",
+                      "expr": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 19,
+                        "source_line_end": 19,
+                        "source_column_start": 36,
+                        "source_column_end": 51,
+                        "kind": "Call",
+                        "type": "bit",
+                        "subroutine": "$stable",
+                        "arguments": [
+                          {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 19,
+                            "source_line_end": 19,
+                            "source_column_start": 44,
+                            "source_column_end": 50,
+                            "kind": "NamedValue",
+                            "type": "logic[2:0]",
+                            "symbol": "6338665613072 wr_ptr"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "ifTrue": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 19,
+                    "source_line_end": 19,
+                    "source_column_start": 52,
+                    "source_column_end": 53,
+                    "kind": "Empty"
+                  },
+                  "assertionKind": "Assert"
+                }
+              }
+            },
+            {
+              "name": "a3",
+              "kind": "StatementBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 20,
+              "source_column": 1,
+              "addr": 6338665609232
+            },
+            {
+              "name": "",
+              "kind": "ProceduralBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 20,
+              "source_column": 1,
+              "addr": 6338665609128,
+              "procedureKind": "Always",
+              "body": {
+                "source_file_start": "fifo_assertions.sv",
+                "source_file_end": "fifo_assertions.sv",
+                "source_line_start": 20,
+                "source_line_end": 20,
+                "source_column_start": 1,
+                "source_column_end": 70,
+                "kind": "Block",
+                "blockKind": "Sequential",
+                "block": "6338665609232 a3",
+                "body": {
+                  "source_file_start": "fifo_assertions.sv",
+                  "source_file_end": "fifo_assertions.sv",
+                  "source_line_start": 20,
+                  "source_line_end": 20,
+                  "source_column_start": 1,
+                  "source_column_end": 70,
+                  "kind": "ConcurrentAssertion",
+                  "propertySpec": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 20,
+                    "source_line_end": 20,
+                    "source_column_start": 22,
+                    "source_column_end": 68,
+                    "kind": "Binary",
+                    "op": "NonOverlappedImplication",
+                    "left": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 20,
+                      "source_line_end": 20,
+                      "source_column_start": 22,
+                      "source_column_end": 22,
+                      "kind": "Simple",
+                      "expr": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 20,
+                        "source_line_end": 20,
+                        "source_column_start": 22,
+                        "source_column_end": 22,
+                        "kind": "BinaryOp",
+                        "type": "logic",
+                        "op": "LogicalAnd",
+                        "left": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 20,
+                          "source_line_end": 20,
+                          "source_column_start": 22,
+                          "source_column_end": 22,
+                          "kind": "NamedValue",
+                          "type": "logic",
+                          "symbol": "6338665611792 rd_en"
+                        },
+                        "right": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 20,
+                          "source_line_end": 20,
+                          "source_column_start": 22,
+                          "source_column_end": 22,
+                          "kind": "UnaryOp",
+                          "type": "logic",
+                          "op": "LogicalNot",
+                          "operand": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 20,
+                            "source_line_end": 20,
+                            "source_column_start": 22,
+                            "source_column_end": 22,
+                            "kind": "NamedValue",
+                            "type": "logic",
+                            "symbol": "6338665612560 empty"
+                          }
+                        }
+                      }
+                    },
+                    "right": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 20,
+                      "source_line_end": 20,
+                      "source_column_start": 35,
+                      "source_column_end": 68,
+                      "kind": "Simple",
+                      "expr": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 20,
+                        "source_line_end": 20,
+                        "source_column_start": 35,
+                        "source_column_end": 68,
+                        "kind": "BinaryOp",
+                        "type": "logic",
+                        "op": "Equality",
+                        "left": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 20,
+                          "source_line_end": 20,
+                          "source_column_start": 35,
+                          "source_column_end": 41,
+                          "kind": "NamedValue",
+                          "type": "logic[2:0]",
+                          "symbol": "6338665613328 rd_ptr"
+                        },
+                        "right": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 20,
+                          "source_line_end": 20,
+                          "source_column_start": 45,
+                          "source_column_end": 68,
+                          "kind": "BinaryOp",
+                          "type": "logic[2:0]",
+                          "op": "Add",
+                          "left": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 20,
+                            "source_line_end": 20,
+                            "source_column_start": 45,
+                            "source_column_end": 58,
+                            "kind": "Call",
+                            "type": "logic[2:0]",
+                            "subroutine": "$past",
+                            "arguments": [
+                              {
+                                "source_file_start": "fifo_assertions.sv",
+                                "source_file_end": "fifo_assertions.sv",
+                                "source_line_start": 20,
+                                "source_line_end": 20,
+                                "source_column_start": 51,
+                                "source_column_end": 57,
+                                "kind": "NamedValue",
+                                "type": "logic[2:0]",
+                                "symbol": "6338665613328 rd_ptr"
+                              }
+                            ]
+                          },
+                          "right": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 20,
+                            "source_line_end": 20,
+                            "source_column_start": 61,
+                            "source_column_end": 68,
+                            "kind": "NamedValue",
+                            "type": "logic[2:0]",
+                            "symbol": "6338665608320 PTR_ONE"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "ifTrue": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 20,
+                    "source_line_end": 20,
+                    "source_column_start": 69,
+                    "source_column_end": 70,
+                    "kind": "Empty"
+                  },
+                  "assertionKind": "Assert"
+                }
+              }
+            },
+            {
+              "name": "a4",
+              "kind": "StatementBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 21,
+              "source_column": 1,
+              "addr": 6338665609488
+            },
+            {
+              "name": "",
+              "kind": "ProceduralBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 21,
+              "source_column": 1,
+              "addr": 6338665609384,
+              "procedureKind": "Always",
+              "body": {
+                "source_file_start": "fifo_assertions.sv",
+                "source_file_end": "fifo_assertions.sv",
+                "source_line_start": 21,
+                "source_line_end": 21,
+                "source_column_start": 1,
+                "source_column_end": 53,
+                "kind": "Block",
+                "blockKind": "Sequential",
+                "block": "6338665609488 a4",
+                "body": {
+                  "source_file_start": "fifo_assertions.sv",
+                  "source_file_end": "fifo_assertions.sv",
+                  "source_line_start": 21,
+                  "source_line_end": 21,
+                  "source_column_start": 1,
+                  "source_column_end": 53,
+                  "kind": "ConcurrentAssertion",
+                  "propertySpec": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 21,
+                    "source_line_end": 21,
+                    "source_column_start": 22,
+                    "source_column_end": 51,
+                    "kind": "Binary",
+                    "op": "NonOverlappedImplication",
+                    "left": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 21,
+                      "source_line_end": 21,
+                      "source_column_start": 22,
+                      "source_column_end": 23,
+                      "kind": "Simple",
+                      "expr": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 21,
+                        "source_line_end": 21,
+                        "source_column_start": 22,
+                        "source_column_end": 23,
+                        "kind": "UnaryOp",
+                        "type": "logic",
+                        "op": "LogicalNot",
+                        "operand": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 21,
+                          "source_line_end": 21,
+                          "source_column_start": 23,
+                          "source_column_end": 23,
+                          "kind": "BinaryOp",
+                          "type": "logic",
+                          "op": "LogicalAnd",
+                          "left": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 21,
+                            "source_line_end": 21,
+                            "source_column_start": 23,
+                            "source_column_end": 23,
+                            "kind": "NamedValue",
+                            "type": "logic",
+                            "symbol": "6338665611792 rd_en"
+                          },
+                          "right": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 21,
+                            "source_line_end": 21,
+                            "source_column_start": 23,
+                            "source_column_end": 23,
+                            "kind": "UnaryOp",
+                            "type": "logic",
+                            "op": "LogicalNot",
+                            "operand": {
+                              "source_file_start": "fifo_assertions.sv",
+                              "source_file_end": "fifo_assertions.sv",
+                              "source_line_start": 21,
+                              "source_line_end": 21,
+                              "source_column_start": 23,
+                              "source_column_end": 23,
+                              "kind": "NamedValue",
+                              "type": "logic",
+                              "symbol": "6338665612560 empty"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "right": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 21,
+                      "source_line_end": 21,
+                      "source_column_start": 36,
+                      "source_column_end": 51,
+                      "kind": "Simple",
+                      "expr": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 21,
+                        "source_line_end": 21,
+                        "source_column_start": 36,
+                        "source_column_end": 51,
+                        "kind": "Call",
+                        "type": "bit",
+                        "subroutine": "$stable",
+                        "arguments": [
+                          {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 21,
+                            "source_line_end": 21,
+                            "source_column_start": 44,
+                            "source_column_end": 50,
+                            "kind": "NamedValue",
+                            "type": "logic[2:0]",
+                            "symbol": "6338665613328 rd_ptr"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "ifTrue": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 21,
+                    "source_line_end": 21,
+                    "source_column_start": 52,
+                    "source_column_end": 53,
+                    "kind": "Empty"
+                  },
+                  "assertionKind": "Assert"
+                }
+              }
+            },
+            {
+              "name": "a5",
+              "kind": "StatementBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 22,
+              "source_column": 1,
+              "addr": 6338665609744
+            },
+            {
+              "name": "",
+              "kind": "ProceduralBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 22,
+              "source_column": 1,
+              "addr": 6338665609640,
+              "procedureKind": "Always",
+              "body": {
+                "source_file_start": "fifo_assertions.sv",
+                "source_file_end": "fifo_assertions.sv",
+                "source_line_start": 22,
+                "source_line_end": 22,
+                "source_column_start": 1,
+                "source_column_end": 81,
+                "kind": "Block",
+                "blockKind": "Sequential",
+                "block": "6338665609744 a5",
+                "body": {
+                  "source_file_start": "fifo_assertions.sv",
+                  "source_file_end": "fifo_assertions.sv",
+                  "source_line_start": 22,
+                  "source_line_end": 22,
+                  "source_column_start": 1,
+                  "source_column_end": 81,
+                  "kind": "ConcurrentAssertion",
+                  "propertySpec": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 22,
+                    "source_line_end": 22,
+                    "source_column_start": 22,
+                    "source_column_end": 79,
+                    "kind": "Binary",
+                    "op": "NonOverlappedImplication",
+                    "left": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 22,
+                      "source_line_end": 22,
+                      "source_column_start": 22,
+                      "source_column_end": 31,
+                      "kind": "Simple",
+                      "expr": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 22,
+                        "source_line_end": 22,
+                        "source_column_start": 22,
+                        "source_column_end": 31,
+                        "kind": "BinaryOp",
+                        "type": "logic",
+                        "op": "LogicalAnd",
+                        "left": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 22,
+                          "source_line_end": 22,
+                          "source_column_start": 22,
+                          "source_column_end": 27,
+                          "kind": "NamedValue",
+                          "type": "logic",
+                          "symbol": "6338665612560 empty"
+                        },
+                        "right": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 22,
+                          "source_line_end": 22,
+                          "source_column_start": 31,
+                          "source_column_end": 31,
+                          "kind": "BinaryOp",
+                          "type": "logic",
+                          "op": "LogicalAnd",
+                          "left": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 22,
+                            "source_line_end": 22,
+                            "source_column_start": 31,
+                            "source_column_end": 31,
+                            "kind": "NamedValue",
+                            "type": "logic",
+                            "symbol": "6338665611536 wr_en"
+                          },
+                          "right": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 22,
+                            "source_line_end": 22,
+                            "source_column_start": 31,
+                            "source_column_end": 31,
+                            "kind": "UnaryOp",
+                            "type": "logic",
+                            "op": "LogicalNot",
+                            "operand": {
+                              "source_file_start": "fifo_assertions.sv",
+                              "source_file_end": "fifo_assertions.sv",
+                              "source_line_start": 22,
+                              "source_line_end": 22,
+                              "source_column_start": 31,
+                              "source_column_end": 31,
+                              "kind": "NamedValue",
+                              "type": "logic",
+                              "symbol": "6338665612304 full"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "right": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 22,
+                      "source_line_end": 22,
+                      "source_column_start": 44,
+                      "source_column_end": 79,
+                      "kind": "Simple",
+                      "expr": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 22,
+                        "source_line_end": 22,
+                        "source_column_start": 44,
+                        "source_column_end": 79,
+                        "kind": "BinaryOp",
+                        "type": "logic",
+                        "op": "LogicalAnd",
+                        "left": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 22,
+                          "source_line_end": 22,
+                          "source_column_start": 44,
+                          "source_column_end": 50,
+                          "kind": "UnaryOp",
+                          "type": "logic",
+                          "op": "LogicalNot",
+                          "operand": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 22,
+                            "source_line_end": 22,
+                            "source_column_start": 45,
+                            "source_column_end": 50,
+                            "kind": "NamedValue",
+                            "type": "logic",
+                            "symbol": "6338665612560 empty"
+                          }
+                        },
+                        "right": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 22,
+                          "source_line_end": 22,
+                          "source_column_start": 55,
+                          "source_column_end": 78,
+                          "kind": "BinaryOp",
+                          "type": "logic",
+                          "op": "Equality",
+                          "left": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 22,
+                            "source_line_end": 22,
+                            "source_column_start": 55,
+                            "source_column_end": 62,
+                            "kind": "NamedValue",
+                            "type": "logic[15:0]",
+                            "symbol": "6338665612816 rd_data"
+                          },
+                          "right": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 22,
+                            "source_line_end": 22,
+                            "source_column_start": 64,
+                            "source_column_end": 78,
+                            "kind": "Call",
+                            "type": "logic[15:0]",
+                            "subroutine": "$past",
+                            "arguments": [
+                              {
+                                "source_file_start": "fifo_assertions.sv",
+                                "source_file_end": "fifo_assertions.sv",
+                                "source_line_start": 22,
+                                "source_line_end": 22,
+                                "source_column_start": 70,
+                                "source_column_end": 77,
+                                "kind": "NamedValue",
+                                "type": "logic[15:0]",
+                                "symbol": "6338665612048 wr_data"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "ifTrue": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 22,
+                    "source_line_end": 22,
+                    "source_column_start": 80,
+                    "source_column_end": 81,
+                    "kind": "Empty"
+                  },
+                  "assertionKind": "Assert"
+                }
+              }
+            },
+            {
+              "name": "a6",
+              "kind": "StatementBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 23,
+              "source_column": 1,
+              "addr": 6338665610000
+            },
+            {
+              "name": "",
+              "kind": "ProceduralBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 23,
+              "source_column": 1,
+              "addr": 6338665609896,
+              "procedureKind": "Always",
+              "body": {
+                "source_file_start": "fifo_assertions.sv",
+                "source_file_end": "fifo_assertions.sv",
+                "source_line_start": 23,
+                "source_line_end": 23,
+                "source_column_start": 1,
+                "source_column_end": 84,
+                "kind": "Block",
+                "blockKind": "Sequential",
+                "block": "6338665610000 a6",
+                "body": {
+                  "source_file_start": "fifo_assertions.sv",
+                  "source_file_end": "fifo_assertions.sv",
+                  "source_line_start": 23,
+                  "source_line_end": 23,
+                  "source_column_start": 1,
+                  "source_column_end": 84,
+                  "kind": "ConcurrentAssertion",
+                  "propertySpec": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 23,
+                    "source_line_end": 23,
+                    "source_column_start": 22,
+                    "source_column_end": 82,
+                    "kind": "Binary",
+                    "op": "NonOverlappedImplication",
+                    "left": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 23,
+                      "source_line_end": 23,
+                      "source_column_start": 22,
+                      "source_column_end": 45,
+                      "kind": "SequenceConcat",
+                      "elements": [
+                        {
+                          "sequence": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 23,
+                            "source_line_end": 23,
+                            "source_column_start": 22,
+                            "source_column_end": 31,
+                            "kind": "Simple",
+                            "expr": {
+                              "source_file_start": "fifo_assertions.sv",
+                              "source_file_end": "fifo_assertions.sv",
+                              "source_line_start": 23,
+                              "source_line_end": 23,
+                              "source_column_start": 22,
+                              "source_column_end": 31,
+                              "kind": "BinaryOp",
+                              "type": "logic",
+                              "op": "LogicalAnd",
+                              "left": {
+                                "source_file_start": "fifo_assertions.sv",
+                                "source_file_end": "fifo_assertions.sv",
+                                "source_line_start": 23,
+                                "source_line_end": 23,
+                                "source_column_start": 22,
+                                "source_column_end": 27,
+                                "kind": "NamedValue",
+                                "type": "logic",
+                                "symbol": "6338665612560 empty"
+                              },
+                              "right": {
+                                "source_file_start": "fifo_assertions.sv",
+                                "source_file_end": "fifo_assertions.sv",
+                                "source_line_start": 23,
+                                "source_line_end": 23,
+                                "source_column_start": 31,
+                                "source_column_end": 31,
+                                "kind": "BinaryOp",
+                                "type": "logic",
+                                "op": "LogicalAnd",
+                                "left": {
+                                  "source_file_start": "fifo_assertions.sv",
+                                  "source_file_end": "fifo_assertions.sv",
+                                  "source_line_start": 23,
+                                  "source_line_end": 23,
+                                  "source_column_start": 31,
+                                  "source_column_end": 31,
+                                  "kind": "NamedValue",
+                                  "type": "logic",
+                                  "symbol": "6338665611536 wr_en"
+                                },
+                                "right": {
+                                  "source_file_start": "fifo_assertions.sv",
+                                  "source_file_end": "fifo_assertions.sv",
+                                  "source_line_start": 23,
+                                  "source_line_end": 23,
+                                  "source_column_start": 31,
+                                  "source_column_end": 31,
+                                  "kind": "UnaryOp",
+                                  "type": "logic",
+                                  "op": "LogicalNot",
+                                  "operand": {
+                                    "source_file_start": "fifo_assertions.sv",
+                                    "source_file_end": "fifo_assertions.sv",
+                                    "source_line_start": 23,
+                                    "source_line_end": 23,
+                                    "source_column_start": 31,
+                                    "source_column_end": 31,
+                                    "kind": "NamedValue",
+                                    "type": "logic",
+                                    "symbol": "6338665612304 full"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "min": 0,
+                          "max": 0
+                        },
+                        {
+                          "sequence": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 23,
+                            "source_line_end": 23,
+                            "source_column_start": 44,
+                            "source_column_end": 45,
+                            "kind": "Simple",
+                            "expr": {
+                              "source_file_start": "fifo_assertions.sv",
+                              "source_file_end": "fifo_assertions.sv",
+                              "source_line_start": 23,
+                              "source_line_end": 23,
+                              "source_column_start": 44,
+                              "source_column_end": 45,
+                              "kind": "UnaryOp",
+                              "type": "logic",
+                              "op": "LogicalNot",
+                              "operand": {
+                                "source_file_start": "fifo_assertions.sv",
+                                "source_file_end": "fifo_assertions.sv",
+                                "source_line_start": 23,
+                                "source_line_end": 23,
+                                "source_column_start": 45,
+                                "source_column_end": 45,
+                                "kind": "BinaryOp",
+                                "type": "logic",
+                                "op": "LogicalAnd",
+                                "left": {
+                                  "source_file_start": "fifo_assertions.sv",
+                                  "source_file_end": "fifo_assertions.sv",
+                                  "source_line_start": 23,
+                                  "source_line_end": 23,
+                                  "source_column_start": 45,
+                                  "source_column_end": 45,
+                                  "kind": "NamedValue",
+                                  "type": "logic",
+                                  "symbol": "6338665611792 rd_en"
+                                },
+                                "right": {
+                                  "source_file_start": "fifo_assertions.sv",
+                                  "source_file_end": "fifo_assertions.sv",
+                                  "source_line_start": 23,
+                                  "source_line_end": 23,
+                                  "source_column_start": 45,
+                                  "source_column_end": 45,
+                                  "kind": "UnaryOp",
+                                  "type": "logic",
+                                  "op": "LogicalNot",
+                                  "operand": {
+                                    "source_file_start": "fifo_assertions.sv",
+                                    "source_file_end": "fifo_assertions.sv",
+                                    "source_line_start": 23,
+                                    "source_line_end": 23,
+                                    "source_column_start": 45,
+                                    "source_column_end": 45,
+                                    "kind": "NamedValue",
+                                    "type": "logic",
+                                    "symbol": "6338665612560 empty"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "min": 1,
+                          "max": 1
+                        }
+                      ]
+                    },
+                    "right": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 23,
+                      "source_line_end": 23,
+                      "source_column_start": 57,
+                      "source_column_end": 82,
+                      "kind": "Simple",
+                      "expr": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 23,
+                        "source_line_end": 23,
+                        "source_column_start": 57,
+                        "source_column_end": 82,
+                        "kind": "BinaryOp",
+                        "type": "logic",
+                        "op": "Equality",
+                        "left": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 23,
+                          "source_line_end": 23,
+                          "source_column_start": 57,
+                          "source_column_end": 64,
+                          "kind": "NamedValue",
+                          "type": "logic[15:0]",
+                          "symbol": "6338665612816 rd_data"
+                        },
+                        "right": {
+                          "source_file_start": "fifo_assertions.sv",
+                          "source_file_end": "fifo_assertions.sv",
+                          "source_line_start": 23,
+                          "source_line_end": 23,
+                          "source_column_start": 66,
+                          "source_column_end": 82,
+                          "kind": "Call",
+                          "type": "logic[15:0]",
+                          "subroutine": "$past",
+                          "arguments": [
+                            {
+                              "source_file_start": "fifo_assertions.sv",
+                              "source_file_end": "fifo_assertions.sv",
+                              "source_line_start": 23,
+                              "source_line_end": 23,
+                              "source_column_start": 72,
+                              "source_column_end": 79,
+                              "kind": "NamedValue",
+                              "type": "logic[15:0]",
+                              "symbol": "6338665612048 wr_data"
+                            },
+                            {
+                              "source_file_start": "fifo_assertions.sv",
+                              "source_file_end": "fifo_assertions.sv",
+                              "source_line_start": 23,
+                              "source_line_end": 23,
+                              "source_column_start": 80,
+                              "source_column_end": 81,
+                              "kind": "IntegerLiteral",
+                              "type": "int",
+                              "value": "2",
+                              "constant": "2"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "ifTrue": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 23,
+                    "source_line_end": 23,
+                    "source_column_start": 83,
+                    "source_column_end": 84,
+                    "kind": "Empty"
+                  },
+                  "assertionKind": "Assert"
+                }
+              }
+            },
+            {
+              "name": "a7",
+              "kind": "StatementBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 24,
+              "source_column": 1,
+              "addr": 6338665610256
+            },
+            {
+              "name": "",
+              "kind": "ProceduralBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 24,
+              "source_column": 1,
+              "addr": 6338665610152,
+              "procedureKind": "Always",
+              "body": {
+                "source_file_start": "fifo_assertions.sv",
+                "source_file_end": "fifo_assertions.sv",
+                "source_line_start": 24,
+                "source_line_end": 25,
+                "source_column_start": 1,
+                "source_column_end": 18,
+                "kind": "Block",
+                "blockKind": "Sequential",
+                "block": "6338665610256 a7",
+                "body": {
+                  "source_file_start": "fifo_assertions.sv",
+                  "source_file_end": "fifo_assertions.sv",
+                  "source_line_start": 24,
+                  "source_line_end": 25,
+                  "source_column_start": 1,
+                  "source_column_end": 18,
+                  "kind": "ConcurrentAssertion",
+                  "propertySpec": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 24,
+                    "source_line_end": 25,
+                    "source_column_start": 22,
+                    "source_column_end": 16,
+                    "kind": "Binary",
+                    "op": "NonOverlappedImplication",
+                    "left": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 24,
+                      "source_line_end": 24,
+                      "source_column_start": 22,
+                      "source_column_end": 86,
+                      "kind": "SequenceConcat",
+                      "elements": [
+                        {
+                          "sequence": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 24,
+                            "source_line_end": 24,
+                            "source_column_start": 22,
+                            "source_column_end": 27,
+                            "kind": "Simple",
+                            "expr": {
+                              "source_file_start": "fifo_assertions.sv",
+                              "source_file_end": "fifo_assertions.sv",
+                              "source_line_start": 24,
+                              "source_line_end": 24,
+                              "source_column_start": 22,
+                              "source_column_end": 27,
+                              "kind": "NamedValue",
+                              "type": "logic",
+                              "symbol": "6338665612560 empty"
+                            }
+                          },
+                          "min": 0,
+                          "max": 0
+                        },
+                        {
+                          "sequence": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 24,
+                            "source_line_end": 24,
+                            "source_column_start": 32,
+                            "source_column_end": 86,
+                            "kind": "Binary",
+                            "op": "Throughout",
+                            "left": {
+                              "source_file_start": "fifo_assertions.sv",
+                              "source_file_end": "fifo_assertions.sv",
+                              "source_line_start": 24,
+                              "source_line_end": 24,
+                              "source_column_start": 33,
+                              "source_column_end": 44,
+                              "kind": "Simple",
+                              "expr": {
+                                "source_file_start": "fifo_assertions.sv",
+                                "source_file_end": "fifo_assertions.sv",
+                                "source_line_start": 24,
+                                "source_line_end": 24,
+                                "source_column_start": 34,
+                                "source_column_end": 35,
+                                "kind": "UnaryOp",
+                                "type": "logic",
+                                "op": "LogicalNot",
+                                "operand": {
+                                  "source_file_start": "fifo_assertions.sv",
+                                  "source_file_end": "fifo_assertions.sv",
+                                  "source_line_start": 24,
+                                  "source_line_end": 24,
+                                  "source_column_start": 35,
+                                  "source_column_end": 35,
+                                  "kind": "BinaryOp",
+                                  "type": "logic",
+                                  "op": "LogicalAnd",
+                                  "left": {
+                                    "source_file_start": "fifo_assertions.sv",
+                                    "source_file_end": "fifo_assertions.sv",
+                                    "source_line_start": 24,
+                                    "source_line_end": 24,
+                                    "source_column_start": 35,
+                                    "source_column_end": 35,
+                                    "kind": "NamedValue",
+                                    "type": "logic",
+                                    "symbol": "6338665611792 rd_en"
+                                  },
+                                  "right": {
+                                    "source_file_start": "fifo_assertions.sv",
+                                    "source_file_end": "fifo_assertions.sv",
+                                    "source_line_start": 24,
+                                    "source_line_end": 24,
+                                    "source_column_start": 35,
+                                    "source_column_end": 35,
+                                    "kind": "UnaryOp",
+                                    "type": "logic",
+                                    "op": "LogicalNot",
+                                    "operand": {
+                                      "source_file_start": "fifo_assertions.sv",
+                                      "source_file_end": "fifo_assertions.sv",
+                                      "source_line_start": 24,
+                                      "source_line_end": 24,
+                                      "source_column_start": 35,
+                                      "source_column_end": 35,
+                                      "kind": "NamedValue",
+                                      "type": "logic",
+                                      "symbol": "6338665612560 empty"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "right": {
+                              "source_file_start": "fifo_assertions.sv",
+                              "source_file_end": "fifo_assertions.sv",
+                              "source_line_start": 24,
+                              "source_line_end": 24,
+                              "source_column_start": 56,
+                              "source_column_end": 85,
+                              "kind": "Simple",
+                              "expr": {
+                                "source_file_start": "fifo_assertions.sv",
+                                "source_file_end": "fifo_assertions.sv",
+                                "source_line_start": 24,
+                                "source_line_end": 24,
+                                "source_column_start": 57,
+                                "source_column_end": 57,
+                                "kind": "BinaryOp",
+                                "type": "logic",
+                                "op": "LogicalAnd",
+                                "left": {
+                                  "source_file_start": "fifo_assertions.sv",
+                                  "source_file_end": "fifo_assertions.sv",
+                                  "source_line_start": 24,
+                                  "source_line_end": 24,
+                                  "source_column_start": 57,
+                                  "source_column_end": 57,
+                                  "kind": "NamedValue",
+                                  "type": "logic",
+                                  "symbol": "6338665611536 wr_en"
+                                },
+                                "right": {
+                                  "source_file_start": "fifo_assertions.sv",
+                                  "source_file_end": "fifo_assertions.sv",
+                                  "source_line_start": 24,
+                                  "source_line_end": 24,
+                                  "source_column_start": 57,
+                                  "source_column_end": 57,
+                                  "kind": "UnaryOp",
+                                  "type": "logic",
+                                  "op": "LogicalNot",
+                                  "operand": {
+                                    "source_file_start": "fifo_assertions.sv",
+                                    "source_file_end": "fifo_assertions.sv",
+                                    "source_line_start": 24,
+                                    "source_line_end": 24,
+                                    "source_column_start": 57,
+                                    "source_column_end": 57,
+                                    "kind": "NamedValue",
+                                    "type": "logic",
+                                    "symbol": "6338665612304 full"
+                                  }
+                                }
+                              },
+                              "repetition": {
+                                "kind": "GoTo",
+                                "min": 8,
+                                "max": 8
+                              }
+                            }
+                          },
+                          "min": 0,
+                          "max": 0
+                        }
+                      ]
+                    },
+                    "right": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 25,
+                      "source_line_end": 25,
+                      "source_column_start": 12,
+                      "source_column_end": 16,
+                      "kind": "Simple",
+                      "expr": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 25,
+                        "source_line_end": 25,
+                        "source_column_start": 12,
+                        "source_column_end": 16,
+                        "kind": "NamedValue",
+                        "type": "logic",
+                        "symbol": "6338665612304 full"
+                      }
+                    }
+                  },
+                  "ifTrue": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 25,
+                    "source_line_end": 25,
+                    "source_column_start": 17,
+                    "source_column_end": 18,
+                    "kind": "Empty"
+                  },
+                  "assertionKind": "Assert"
+                }
+              }
+            },
+            {
+              "name": "a8",
+              "kind": "StatementBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 26,
+              "source_column": 1,
+              "addr": 6338665610512
+            },
+            {
+              "name": "",
+              "kind": "ProceduralBlock",
+              "source_file": "fifo_assertions.sv",
+              "source_line": 26,
+              "source_column": 1,
+              "addr": 6338665610408,
+              "procedureKind": "Always",
+              "body": {
+                "source_file_start": "fifo_assertions.sv",
+                "source_file_end": "fifo_assertions.sv",
+                "source_line_start": 26,
+                "source_line_end": 27,
+                "source_column_start": 1,
+                "source_column_end": 18,
+                "kind": "Block",
+                "blockKind": "Sequential",
+                "block": "6338665610512 a8",
+                "body": {
+                  "source_file_start": "fifo_assertions.sv",
+                  "source_file_end": "fifo_assertions.sv",
+                  "source_line_start": 26,
+                  "source_line_end": 27,
+                  "source_column_start": 1,
+                  "source_column_end": 18,
+                  "kind": "ConcurrentAssertion",
+                  "propertySpec": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 26,
+                    "source_line_end": 27,
+                    "source_column_start": 22,
+                    "source_column_end": 16,
+                    "kind": "Binary",
+                    "op": "NonOverlappedImplication",
+                    "left": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 26,
+                      "source_line_end": 26,
+                      "source_column_start": 22,
+                      "source_column_end": 85,
+                      "kind": "SequenceConcat",
+                      "elements": [
+                        {
+                          "sequence": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 26,
+                            "source_line_end": 26,
+                            "source_column_start": 22,
+                            "source_column_end": 26,
+                            "kind": "Simple",
+                            "expr": {
+                              "source_file_start": "fifo_assertions.sv",
+                              "source_file_end": "fifo_assertions.sv",
+                              "source_line_start": 26,
+                              "source_line_end": 26,
+                              "source_column_start": 22,
+                              "source_column_end": 26,
+                              "kind": "NamedValue",
+                              "type": "logic",
+                              "symbol": "6338665612304 full"
+                            }
+                          },
+                          "min": 0,
+                          "max": 0
+                        },
+                        {
+                          "sequence": {
+                            "source_file_start": "fifo_assertions.sv",
+                            "source_file_end": "fifo_assertions.sv",
+                            "source_line_start": 26,
+                            "source_line_end": 26,
+                            "source_column_start": 31,
+                            "source_column_end": 85,
+                            "kind": "Binary",
+                            "op": "Throughout",
+                            "left": {
+                              "source_file_start": "fifo_assertions.sv",
+                              "source_file_end": "fifo_assertions.sv",
+                              "source_line_start": 26,
+                              "source_line_end": 26,
+                              "source_column_start": 32,
+                              "source_column_end": 43,
+                              "kind": "Simple",
+                              "expr": {
+                                "source_file_start": "fifo_assertions.sv",
+                                "source_file_end": "fifo_assertions.sv",
+                                "source_line_start": 26,
+                                "source_line_end": 26,
+                                "source_column_start": 33,
+                                "source_column_end": 34,
+                                "kind": "UnaryOp",
+                                "type": "logic",
+                                "op": "LogicalNot",
+                                "operand": {
+                                  "source_file_start": "fifo_assertions.sv",
+                                  "source_file_end": "fifo_assertions.sv",
+                                  "source_line_start": 26,
+                                  "source_line_end": 26,
+                                  "source_column_start": 34,
+                                  "source_column_end": 34,
+                                  "kind": "BinaryOp",
+                                  "type": "logic",
+                                  "op": "LogicalAnd",
+                                  "left": {
+                                    "source_file_start": "fifo_assertions.sv",
+                                    "source_file_end": "fifo_assertions.sv",
+                                    "source_line_start": 26,
+                                    "source_line_end": 26,
+                                    "source_column_start": 34,
+                                    "source_column_end": 34,
+                                    "kind": "NamedValue",
+                                    "type": "logic",
+                                    "symbol": "6338665611536 wr_en"
+                                  },
+                                  "right": {
+                                    "source_file_start": "fifo_assertions.sv",
+                                    "source_file_end": "fifo_assertions.sv",
+                                    "source_line_start": 26,
+                                    "source_line_end": 26,
+                                    "source_column_start": 34,
+                                    "source_column_end": 34,
+                                    "kind": "UnaryOp",
+                                    "type": "logic",
+                                    "op": "LogicalNot",
+                                    "operand": {
+                                      "source_file_start": "fifo_assertions.sv",
+                                      "source_file_end": "fifo_assertions.sv",
+                                      "source_line_start": 26,
+                                      "source_line_end": 26,
+                                      "source_column_start": 34,
+                                      "source_column_end": 34,
+                                      "kind": "NamedValue",
+                                      "type": "logic",
+                                      "symbol": "6338665612304 full"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "right": {
+                              "source_file_start": "fifo_assertions.sv",
+                              "source_file_end": "fifo_assertions.sv",
+                              "source_line_start": 26,
+                              "source_line_end": 26,
+                              "source_column_start": 55,
+                              "source_column_end": 84,
+                              "kind": "Simple",
+                              "expr": {
+                                "source_file_start": "fifo_assertions.sv",
+                                "source_file_end": "fifo_assertions.sv",
+                                "source_line_start": 26,
+                                "source_line_end": 26,
+                                "source_column_start": 56,
+                                "source_column_end": 56,
+                                "kind": "BinaryOp",
+                                "type": "logic",
+                                "op": "LogicalAnd",
+                                "left": {
+                                  "source_file_start": "fifo_assertions.sv",
+                                  "source_file_end": "fifo_assertions.sv",
+                                  "source_line_start": 26,
+                                  "source_line_end": 26,
+                                  "source_column_start": 56,
+                                  "source_column_end": 56,
+                                  "kind": "NamedValue",
+                                  "type": "logic",
+                                  "symbol": "6338665611792 rd_en"
+                                },
+                                "right": {
+                                  "source_file_start": "fifo_assertions.sv",
+                                  "source_file_end": "fifo_assertions.sv",
+                                  "source_line_start": 26,
+                                  "source_line_end": 26,
+                                  "source_column_start": 56,
+                                  "source_column_end": 56,
+                                  "kind": "UnaryOp",
+                                  "type": "logic",
+                                  "op": "LogicalNot",
+                                  "operand": {
+                                    "source_file_start": "fifo_assertions.sv",
+                                    "source_file_end": "fifo_assertions.sv",
+                                    "source_line_start": 26,
+                                    "source_line_end": 26,
+                                    "source_column_start": 56,
+                                    "source_column_end": 56,
+                                    "kind": "NamedValue",
+                                    "type": "logic",
+                                    "symbol": "6338665612560 empty"
+                                  }
+                                }
+                              },
+                              "repetition": {
+                                "kind": "GoTo",
+                                "min": 8,
+                                "max": 8
+                              }
+                            }
+                          },
+                          "min": 0,
+                          "max": 0
+                        }
+                      ]
+                    },
+                    "right": {
+                      "source_file_start": "fifo_assertions.sv",
+                      "source_file_end": "fifo_assertions.sv",
+                      "source_line_start": 27,
+                      "source_line_end": 27,
+                      "source_column_start": 11,
+                      "source_column_end": 16,
+                      "kind": "Simple",
+                      "expr": {
+                        "source_file_start": "fifo_assertions.sv",
+                        "source_file_end": "fifo_assertions.sv",
+                        "source_line_start": 27,
+                        "source_line_end": 27,
+                        "source_column_start": 11,
+                        "source_column_end": 16,
+                        "kind": "NamedValue",
+                        "type": "logic",
+                        "symbol": "6338665612560 empty"
+                      }
+                    }
+                  },
+                  "ifTrue": {
+                    "source_file_start": "fifo_assertions.sv",
+                    "source_file_end": "fifo_assertions.sv",
+                    "source_line_start": 27,
+                    "source_line_end": 27,
+                    "source_column_start": 17,
+                    "source_column_end": 18,
+                    "kind": "Empty"
+                  },
+                  "assertionKind": "Assert"
+                }
+              }
+            },
+            {
+              "kind": "defaultDisable",
+              "expr": {
+                "source_file_start": "fifo_assertions.sv",
+                "source_file_end": "fifo_assertions.sv",
+                "source_line_start": 16,
+                "source_line_end": 16,
+                "source_column_start": 22,
+                "source_column_end": 25,
+                "kind": "NamedValue",
+                "type": "logic",
+                "symbol": "6338665611280 rst"
+              }
+            }
+          ],
+          "definition": "136334078272384 fifo_assertions"
+        },
+        "connections": [
+        ]
+      }
+    ]
+  },
+  "definitions": [
+    {
+      "name": "fifo_assertions",
+      "kind": "Definition",
+      "source_file": "fifo_assertions.sv",
+      "source_line": 2,
+      "source_column": 8,
+      "addr": 136334078272384,
+      "defaultNetType": "136334075101312 wire",
+      "definitionKind": "Module",
+      "defaultLifetime": "Static",
+      "unconnectedDrive": "None",
+      "cellDefine": false
+    }
+  ]
+}

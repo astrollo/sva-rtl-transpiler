@@ -1,0 +1,28 @@
+[options]
+mode bmc
+depth 64
+
+[engines]
+smtbmc boolector
+
+
+[script]
+#TEST_ASSERT to verify if any assert_fail is asserted
+
+read -formal -sv -I. -DTEST_ASSERT -DMUT_WR_CNT common.sv fifo.sv fifo_checker.sv fifo_checker_top.sv
+prep -top fifo_checker_top
+
+# MUT_WR_PTR: disables the write pointer increment.
+# MUT_RD_PTR: disables the read pointer increment.
+# MUT_FULL: introduces a bug in the `full` flag.
+# MUT_EMPTY: introduces a bug in the `empty` flag.
+# MUT_WR_CNT: introduces a bug in the occupancy counter on write transactions.
+# MUT_RD_CNT: introduces a bug in the occupancy counter on read transactions.
+# MUT_RD_DATA: introduces a bug in the read-data path.
+
+[files]
+../common.sv
+../fifo.sv
+../fifo_checker.sv
+fifo_checker_top.sv
+

@@ -1,0 +1,44 @@
+[options]
+mode cover
+depth 64
+
+[engines]
+smtbmc boolector
+
+[script]
+#  Mutation coverage matrix
+# 
+#  MUT_WR_PTR   -> covered by a1
+#  MUT_RD_PTR   -> covered by a3
+#  MUT_WR_CNT   -> covered by a5 and a7
+#  MUT_RD_CNT   -> covered by a8
+#  MUT_EMPTY    -> covered by a5
+#  MUT_FULL     -> covered by a7
+#  MUT_RD_DATA  -> covered by a5 and a6
+
+#read -formal -sv -I. -DMUT_WR_PTR  -DCHECK_A1 common.sv fifo.sv fifo_checker.sv fifo_checker_top.sv
+#read -formal -sv -I. -DMUT_RD_PTR  -DCHECK_A3 common.sv fifo.sv fifo_checker.sv fifo_checker_top.sv
+#read -formal -sv -I. -DMUT_WR_CNT  -DCHECK_A5 common.sv fifo.sv fifo_checker.sv fifo_checker_top.sv
+#read -formal -sv -I. -DMUT_WR_CNT  -DCHECK_A7 common.sv fifo.sv fifo_checker.sv fifo_checker_top.sv
+#read -formal -sv -I. -DMUT_RD_CNT  -DCHECK_A8 common.sv fifo.sv fifo_checker.sv fifo_checker_top.sv
+#read -formal -sv -I. -DMUT_EMPTY   -DCHECK_A5 common.sv fifo.sv fifo_checker.sv fifo_checker_top.sv
+#read -formal -sv -I. -DMUT_FULL    -DCHECK_A7 common.sv fifo.sv fifo_checker.sv fifo_checker_top.sv
+#read -formal -sv -I. -DMUT_RD_DATA -DCHECK_A5 common.sv fifo.sv fifo_checker.sv fifo_checker_top.sv
+read -formal -sv -I. -DMUT_RD_DATA -DCHECK_A6 common.sv fifo.sv fifo_checker.sv fifo_checker_top.sv
+
+prep -top fifo_checker_top
+
+# MUT_WR_PTR: disables the write pointer increment.
+# MUT_RD_PTR: disables the read pointer increment.
+# MUT_FULL: introduces a bug in the `full` flag.
+# MUT_EMPTY: introduces a bug in the `empty` flag.
+# MUT_WR_CNT: introduces a bug in the occupancy counter on write transactions.
+# MUT_RD_CNT: introduces a bug in the occupancy counter on read transactions.
+# MUT_RD_DATA: introduces a bug in the read-data path.
+
+[files]
+../common.sv
+../fifo.sv
+../fifo_checker.sv
+fifo_checker_top.sv
+
